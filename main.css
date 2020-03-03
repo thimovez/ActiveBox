@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url(images/banner.jpg) no-repeat center top / cover;
+    height: 800px;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;    
+}
+
+.header_bg {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.menu li a {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
