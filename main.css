@@ -138,6 +138,7 @@ header {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     margin: 100px 0;
 }
 
@@ -145,6 +146,7 @@ header {
     text-align: center;
     width: 33.33333%;
     padding: 20px;
+    margin: 25px 0;
 }
 
 .content__img {
